@@ -1,0 +1,6 @@
+# GitHub Linguist: treat this as a Dart/Flutter app.
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+
+# Drift/codegen — don't let generated files hide app Dart.
+lib/db/*.g.dart linguist-generated=true
